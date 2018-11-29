@@ -74,7 +74,7 @@ resetButton.addEventListener('click', function(){
         //add initial color to squares
         squares[i].style.backgroundColor = colors[i]; 
     }
-    h1.style.backgroundColor = '#232323';
+    h1.style.backgroundColor = 'steelblue';
 });
 
 // for(let i =0; i < squares.length; i++){
