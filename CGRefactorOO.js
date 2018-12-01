@@ -1,6 +1,6 @@
 let color = {
-    let colors = [],
-    let pickedColor,
+    colors: [],
+    pickedColor:'',
     pickColor: function() {
         let random = Math.floor(Math.random() * colors.length);
         return colors[random];
@@ -22,17 +22,17 @@ let color = {
 };
 
 let handlers = {
-    const resetButton = document.querySelector('#reset');
-    const modeButtons = document.querySelectorAll('.mode');
+    resetButton: document.querySelector('#reset'),
+    modeButtons: document.querySelectorAll('.mode'),
 
 };
 
 let view = {
-    let numSquares = 6;
-    const colorDisplay = document.querySelector('#colorDisplay'),
-    const messageDisplay = document.querySelector('#message'),
-    const h1 = document.querySelector('h1'),
-    const squares = document.querySelectorAll('.square');
+    numSquares: 6,
+    colorDisplay: document.querySelector('#colorDisplay'),
+    messageDisplay: document.querySelector('#message'),
+    h1: document.querySelector('h1'),
+    squares: document.querySelectorAll('.square');
 
 };
 
